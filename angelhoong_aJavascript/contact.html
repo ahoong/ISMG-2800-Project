@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact us at Asian Spice</title>
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="style1.css"> 
+    <link rel="stylesheet" href="layout_style.css">
+    <link rel="stylesheet" href="contact_form.css">
+</head>
+<body>
+    <div id="layout">
+<header>
+    <h1>AsianSpiceLittleton.com</h1>
+    <h4>Best Chinese Delivery in Littleton, CO</h4>
+</header>
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="menu.html">Menu/Order</a></li>
+    </ul>
+</nav>
+<section>
+    <h2>Contact Us</h2>
+</section>
+<main>
+    <p>* indicates required information</p>
+    <form action="mailto:angel.hoong@ucdenver.edu" id="contactForm">   
+        <fieldset>
+        <legend>Contact Information:</legend>
+            <div class="formRow">
+                <label for="pname">First Name<span>*</span>:</label>
+                <input type="text" id="pname" name="pname" required><br><br>
+            </div>
+            <div class="formRow">
+                <label for="lname">Last Name<span>*</span>:</label>
+                <input type="text" id="lname" name="lname" required><br><br>
+            </div>
+            <div class="formRow">
+                <label for="email">Email Address<span>*</span>:</label>
+                <input type="email" id="email" name="email" required><br><br>
+            </div>
+            <div class="formRow">
+                <label for="Phone">Phone Number<span>*</span>:</label>
+                <input type="tel" id="Telephone" name="Phone" required>
+            </div>
+        </fieldset>
+        <fieldset id="request">
+        <legend> Information Request:</legend>
+            <div class="formRow">
+                <label for="questions">Question Topic<span>*</span>:</label>
+                <select id="questions" name="questions" required>
+                  <option value="Issues">Issues</option>
+                  <option value="Reservations">Reservations</option>
+                  <option value="Menu">Menu</option>
+                  <option value="Other">Other</option>
+                </select>
+            </div>
+            <div class="formRow">
+                <br><label for="subject">Subject<span>*</span>:</label>
+                <input type="text" id="subject" name="subject" required><br>
+                <br><label for="blockLabel">Ask Us Your Question<span>*</span>:</label>
+                <textarea id="question" rows="4" cols="50" required></textarea>
+            </div>
+        </fieldset>
+        <fieldset id="mailinglist">
+        <legend>Do you want to be on our mailing list?</legend>
+            <label for="mYes">Yes</label>
+            <input type="radio" id="mYes" value="Yes">
+            <label for="mNo">No</label>
+            <input type="radio" id="mNo" value="No"><br>         
+        </fieldset>
+            <input type="submit" value="Submit">
+    </form>  
+</main>
+<footer>
+    <p>&copy 2022 by Angel Hoong</p>
+</footer>
+</div>
+</body>
+</html>

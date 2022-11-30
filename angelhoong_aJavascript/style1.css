@@ -1,0 +1,55 @@
+body {font-size: 16px;}
+body{font-family: Arial, Helvetica, sans-serif;}
+header {background-color: rgb(255, 0, 0);
+      padding: 5px;} 
+h4 {background-color: rgb(255, 0, 0);
+      margin-top: 0px;}
+h1 {font-family: tahoma, Arial, Helvetica, sans-serif;
+      color: white;
+      letter-spacing: -2px;
+      margin-bottom: 0px;} 
+h2 {color: white;}
+main {background-color: white;
+      padding: 5px;}
+footer {background-color: rgb(255, 122, 122);
+      font-size: x-small;
+      text-align: center;
+      line-height: 2em;
+      padding: 5px;}
+img { display: block;
+      margin-left: auto;
+      margin-right: auto;}
+section {padding-left: 5px;}
+.center {text-align: center;}
+
+nav {background-color: white;}
+nav a {color: rgb(255, 0, 0); 
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: bold;
+      padding: 2px 10px 2px 10px;}
+nav a:hover {color: rgb(181, 0, 0);
+            text-decoration: underline;}
+header {background: url('rice\ bowl.png') rgb(255, 0, 0) no-repeat;
+      background-size: 70px 70px;
+      background-position: 10px 9px;
+      padding-left: 90px;
+      height: 80px;}
+aside {width: 30%;
+      float: left;
+      border: thin black dashed;
+      border-radius: 20px;
+      padding: 6px; 
+      font-size: small;
+      box-shadow: 2px 2px 5px black;
+      background-color: rgb(255, 122, 122); 
+      background: linear-gradient(rgb(181, 0, 0), rgb(255, 0, 0) rgb(255, 122, 122)) ;}
+section {background: url('spices.jpeg');
+            background-size: cover;
+            background-position: center;
+            height: 300px;
+            box-sizing: border-box;       
+            padding: 220px 5px 5px 100px;}
+h2 {text-shadow: rgb(255, 122, 122);
+      text-shadow: 2px 1px 3px rgb(255, 122, 122);
+}
